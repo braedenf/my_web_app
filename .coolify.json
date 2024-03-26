@@ -1,0 +1,9 @@
+{
+  "name": "my-gleam-web-app",
+  "type": "Docker",
+  "buildDirectory": "/",
+  "dockerfilePath": "/Dockerfile",
+  "dockerContext": "/",
+  "dockerCompose": false,
+  "envs": []
+}
