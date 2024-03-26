@@ -13,6 +13,6 @@ pub fn main() {
 }
 
 fn web_service(_request) {
-  let body = bytes_builder.from_string("Hello, Coolify!")
+  let body = bytes_builder.from_string("Hey, Coolify!")
   Response(200, [], mist.Bytes(body))
 }
